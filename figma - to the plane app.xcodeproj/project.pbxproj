@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A28DAE627FDE1D500B5CF49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28DAE527FDE1D500B5CF49 /* AppDelegate.swift */; };
+		8A28DAE827FDE1D500B5CF49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28DAE727FDE1D500B5CF49 /* SceneDelegate.swift */; };
+		8A28DAEA27FDE1D500B5CF49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28DAE927FDE1D500B5CF49 /* ViewController.swift */; };
+		8A28DAED27FDE1D500B5CF49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A28DAEB27FDE1D500B5CF49 /* Main.storyboard */; };
+		8A28DAF027FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A28DAEE27FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodeld */; };
+		8A28DAF227FDE1DA00B5CF49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A28DAF127FDE1DA00B5CF49 /* Assets.xcassets */; };
+		8A28DAF527FDE1DA00B5CF49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A28DAF327FDE1DA00B5CF49 /* LaunchScreen.storyboard */; };
+		8A28DB0027FDE1DC00B5CF49 /* figma___to_the_plane_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28DAFF27FDE1DC00B5CF49 /* figma___to_the_plane_appTests.swift */; };
+		8A28DB0A27FDE1DC00B5CF49 /* figma___to_the_plane_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28DB0927FDE1DC00B5CF49 /* figma___to_the_plane_appUITests.swift */; };
+		8A28DB0C27FDE1DC00B5CF49 /* figma___to_the_plane_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A28DB0B27FDE1DC00B5CF49 /* figma___to_the_plane_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A28DAFC27FDE1DB00B5CF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A28DADA27FDE1D400B5CF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A28DAE127FDE1D500B5CF49;
+			remoteInfo = "figma - to the plane app";
+		};
+		8A28DB0627FDE1DC00B5CF49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A28DADA27FDE1D400B5CF49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A28DAE127FDE1D500B5CF49;
+			remoteInfo = "figma - to the plane app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A28DAE227FDE1D500B5CF49 /* figma - to the plane app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "figma - to the plane app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A28DAE527FDE1D500B5CF49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A28DAE727FDE1D500B5CF49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A28DAE927FDE1D500B5CF49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A28DAEC27FDE1D500B5CF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A28DAEF27FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "figma___to_the_plane_app.xcdatamodel"; sourceTree = "<group>"; };
+		8A28DAF127FDE1DA00B5CF49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A28DAF427FDE1DA00B5CF49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A28DAF627FDE1DA00B5CF49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A28DAFB27FDE1DB00B5CF49 /* figma - to the plane appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "figma - to the plane appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A28DAFF27FDE1DC00B5CF49 /* figma___to_the_plane_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "figma___to_the_plane_appTests.swift"; sourceTree = "<group>"; };
+		8A28DB0527FDE1DC00B5CF49 /* figma - to the plane appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "figma - to the plane appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A28DB0927FDE1DC00B5CF49 /* figma___to_the_plane_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "figma___to_the_plane_appUITests.swift"; sourceTree = "<group>"; };
+		8A28DB0B27FDE1DC00B5CF49 /* figma___to_the_plane_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "figma___to_the_plane_appUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A28DADF27FDE1D500B5CF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A28DAF827FDE1DB00B5CF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A28DB0227FDE1DC00B5CF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A28DAD927FDE1D400B5CF49 = {
+			isa = PBXGroup;
+			children = (
+				8A28DAE427FDE1D500B5CF49 /* figma - to the plane app */,
+				8A28DAFE27FDE1DB00B5CF49 /* figma - to the plane appTests */,
+				8A28DB0827FDE1DC00B5CF49 /* figma - to the plane appUITests */,
+				8A28DAE327FDE1D500B5CF49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A28DAE327FDE1D500B5CF49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A28DAE227FDE1D500B5CF49 /* figma - to the plane app.app */,
+				8A28DAFB27FDE1DB00B5CF49 /* figma - to the plane appTests.xctest */,
+				8A28DB0527FDE1DC00B5CF49 /* figma - to the plane appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A28DAE427FDE1D500B5CF49 /* figma - to the plane app */ = {
+			isa = PBXGroup;
+			children = (
+				8A28DAE527FDE1D500B5CF49 /* AppDelegate.swift */,
+				8A28DAE727FDE1D500B5CF49 /* SceneDelegate.swift */,
+				8A28DAE927FDE1D500B5CF49 /* ViewController.swift */,
+				8A28DAEB27FDE1D500B5CF49 /* Main.storyboard */,
+				8A28DAF127FDE1DA00B5CF49 /* Assets.xcassets */,
+				8A28DAF327FDE1DA00B5CF49 /* LaunchScreen.storyboard */,
+				8A28DAF627FDE1DA00B5CF49 /* Info.plist */,
+				8A28DAEE27FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodeld */,
+			);
+			path = "figma - to the plane app";
+			sourceTree = "<group>";
+		};
+		8A28DAFE27FDE1DB00B5CF49 /* figma - to the plane appTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A28DAFF27FDE1DC00B5CF49 /* figma___to_the_plane_appTests.swift */,
+			);
+			path = "figma - to the plane appTests";
+			sourceTree = "<group>";
+		};
+		8A28DB0827FDE1DC00B5CF49 /* figma - to the plane appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A28DB0927FDE1DC00B5CF49 /* figma___to_the_plane_appUITests.swift */,
+				8A28DB0B27FDE1DC00B5CF49 /* figma___to_the_plane_appUITestsLaunchTests.swift */,
+			);
+			path = "figma - to the plane appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A28DAE127FDE1D500B5CF49 /* figma - to the plane app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A28DB0F27FDE1DC00B5CF49 /* Build configuration list for PBXNativeTarget "figma - to the plane app" */;
+			buildPhases = (
+				8A28DADE27FDE1D500B5CF49 /* Sources */,
+				8A28DADF27FDE1D500B5CF49 /* Frameworks */,
+				8A28DAE027FDE1D500B5CF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "figma - to the plane app";
+			productName = "figma - to the plane app";
+			productReference = 8A28DAE227FDE1D500B5CF49 /* figma - to the plane app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A28DAFA27FDE1DB00B5CF49 /* figma - to the plane appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A28DB1227FDE1DC00B5CF49 /* Build configuration list for PBXNativeTarget "figma - to the plane appTests" */;
+			buildPhases = (
+				8A28DAF727FDE1DB00B5CF49 /* Sources */,
+				8A28DAF827FDE1DB00B5CF49 /* Frameworks */,
+				8A28DAF927FDE1DB00B5CF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A28DAFD27FDE1DB00B5CF49 /* PBXTargetDependency */,
+			);
+			name = "figma - to the plane appTests";
+			productName = "figma - to the plane appTests";
+			productReference = 8A28DAFB27FDE1DB00B5CF49 /* figma - to the plane appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A28DB0427FDE1DC00B5CF49 /* figma - to the plane appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A28DB1527FDE1DC00B5CF49 /* Build configuration list for PBXNativeTarget "figma - to the plane appUITests" */;
+			buildPhases = (
+				8A28DB0127FDE1DC00B5CF49 /* Sources */,
+				8A28DB0227FDE1DC00B5CF49 /* Frameworks */,
+				8A28DB0327FDE1DC00B5CF49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A28DB0727FDE1DC00B5CF49 /* PBXTargetDependency */,
+			);
+			name = "figma - to the plane appUITests";
+			productName = "figma - to the plane appUITests";
+			productReference = 8A28DB0527FDE1DC00B5CF49 /* figma - to the plane appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A28DADA27FDE1D400B5CF49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8A28DAE127FDE1D500B5CF49 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8A28DAFA27FDE1DB00B5CF49 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A28DAE127FDE1D500B5CF49;
+					};
+					8A28DB0427FDE1DC00B5CF49 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A28DAE127FDE1D500B5CF49;
+					};
+				};
+			};
+			buildConfigurationList = 8A28DADD27FDE1D400B5CF49 /* Build configuration list for PBXProject "figma - to the plane app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A28DAD927FDE1D400B5CF49;
+			productRefGroup = 8A28DAE327FDE1D500B5CF49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A28DAE127FDE1D500B5CF49 /* figma - to the plane app */,
+				8A28DAFA27FDE1DB00B5CF49 /* figma - to the plane appTests */,
+				8A28DB0427FDE1DC00B5CF49 /* figma - to the plane appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A28DAE027FDE1D500B5CF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A28DAF527FDE1DA00B5CF49 /* LaunchScreen.storyboard in Resources */,
+				8A28DAF227FDE1DA00B5CF49 /* Assets.xcassets in Resources */,
+				8A28DAED27FDE1D500B5CF49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A28DAF927FDE1DB00B5CF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A28DB0327FDE1DC00B5CF49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A28DADE27FDE1D500B5CF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A28DAF027FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodeld in Sources */,
+				8A28DAEA27FDE1D500B5CF49 /* ViewController.swift in Sources */,
+				8A28DAE627FDE1D500B5CF49 /* AppDelegate.swift in Sources */,
+				8A28DAE827FDE1D500B5CF49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A28DAF727FDE1DB00B5CF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A28DB0027FDE1DC00B5CF49 /* figma___to_the_plane_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A28DB0127FDE1DC00B5CF49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A28DB0A27FDE1DC00B5CF49 /* figma___to_the_plane_appUITests.swift in Sources */,
+				8A28DB0C27FDE1DC00B5CF49 /* figma___to_the_plane_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A28DAFD27FDE1DB00B5CF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A28DAE127FDE1D500B5CF49 /* figma - to the plane app */;
+			targetProxy = 8A28DAFC27FDE1DB00B5CF49 /* PBXContainerItemProxy */;
+		};
+		8A28DB0727FDE1DC00B5CF49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A28DAE127FDE1D500B5CF49 /* figma - to the plane app */;
+			targetProxy = 8A28DB0627FDE1DC00B5CF49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A28DAEB27FDE1D500B5CF49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A28DAEC27FDE1D500B5CF49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A28DAF327FDE1DA00B5CF49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A28DAF427FDE1DA00B5CF49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A28DB0D27FDE1DC00B5CF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A28DB0E27FDE1DC00B5CF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A28DB1027FDE1DC00B5CF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "figma - to the plane app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demoZZZ.figma---to-the-plane-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A28DB1127FDE1DC00B5CF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "figma - to the plane app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demoZZZ.figma---to-the-plane-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A28DB1327FDE1DC00B5CF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demoZZZ.figma---to-the-plane-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/figma - to the plane app.app/figma - to the plane app";
+			};
+			name = Debug;
+		};
+		8A28DB1427FDE1DC00B5CF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demoZZZ.figma---to-the-plane-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/figma - to the plane app.app/figma - to the plane app";
+			};
+			name = Release;
+		};
+		8A28DB1627FDE1DC00B5CF49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demoZZZ.figma---to-the-plane-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "figma - to the plane app";
+			};
+			name = Debug;
+		};
+		8A28DB1727FDE1DC00B5CF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "demoZZZ.figma---to-the-plane-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "figma - to the plane app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A28DADD27FDE1D400B5CF49 /* Build configuration list for PBXProject "figma - to the plane app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A28DB0D27FDE1DC00B5CF49 /* Debug */,
+				8A28DB0E27FDE1DC00B5CF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A28DB0F27FDE1DC00B5CF49 /* Build configuration list for PBXNativeTarget "figma - to the plane app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A28DB1027FDE1DC00B5CF49 /* Debug */,
+				8A28DB1127FDE1DC00B5CF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A28DB1227FDE1DC00B5CF49 /* Build configuration list for PBXNativeTarget "figma - to the plane appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A28DB1327FDE1DC00B5CF49 /* Debug */,
+				8A28DB1427FDE1DC00B5CF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A28DB1527FDE1DC00B5CF49 /* Build configuration list for PBXNativeTarget "figma - to the plane appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A28DB1627FDE1DC00B5CF49 /* Debug */,
+				8A28DB1727FDE1DC00B5CF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A28DAEE27FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A28DAEF27FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodel */,
+			);
+			currentVersion = 8A28DAEF27FDE1D500B5CF49 /* figma___to_the_plane_app.xcdatamodel */;
+			path = "figma___to_the_plane_app.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A28DADA27FDE1D400B5CF49 /* Project object */;
+}
